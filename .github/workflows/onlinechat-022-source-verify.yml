@@ -2,11 +2,11 @@ name: OnlineChat 0.22 source integrity
 on:
   push:
     paths:
-      - 'imports/0.22_FIX23_TEST/**'
+      - '1FHD_OnlineChat_0.22_FIX23_Nexus-GitHub/**'
       - '.github/workflows/onlinechat-022-source-verify.yml'
   pull_request:
     paths:
-      - 'imports/0.22_FIX23_TEST/**'
+      - '1FHD_OnlineChat_0.22_FIX23_Nexus-GitHub/**'
       - '.github/workflows/onlinechat-022-source-verify.yml'
 jobs:
   source_sha256:
@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify unchanged sources
         run: |
-          python3 imports/0.22_FIX23_TEST/verify_source.py
-          python3 imports/0.22_FIX23_TEST/verify_moduleinfo_rebuild.py
+          python3 1FHD_OnlineChat_0.22_FIX23_Nexus-GitHub/verify_source.py
+          python3 1FHD_OnlineChat_0.22_FIX23_Nexus-GitHub/verify_moduleinfo_rebuild.py
