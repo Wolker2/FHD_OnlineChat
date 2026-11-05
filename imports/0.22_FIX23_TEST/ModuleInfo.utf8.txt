@@ -1,0 +1,13 @@
+Name=FHD_OnlineChat
+Author=FHD
+Conflict=
+Dependence=
+Priority=20
+Languages=Rus,Eng
+NoNormalResources=1
+Section=OtherMods
+SectionEng=OtherMods
+SmallDescription=FHD OnlineChat 0.22 FIXED: расширенный ввод, постоянный ID, автоскрытие в ПБ
+FullDescription=FHD OnlineChat 0.22 FIXED (исправленная сборка): ввод до 500 символов, буфер обмена Ctrl+A/C/V, перемещение курсора мышью и стрелками, постоянный UUID в корне игры (FHD_OnlineChat_ID.ini), автоскрытие в планетарных боях, нумерация одинаковых ников (#1/#2) и кнопка обновления. Исправлены критический вылет _chkstk при старте/отправке, выравнивание стека ESP и таблица экспорта PE32. Требуется XenoNativeLoader >=0.6.5.
+SmallDescriptionEng=FHD OnlineChat 0.22 FIXED: 500-char editor, persistent ID, planetary battle auto-hide
+FullDescriptionEng=FHD OnlineChat 0.22 FIXED: 500-character input with Ctrl+A/C/V and mouse cursor positioning, persistent game-root UUID, planetary battle auto-hide, duplicate nickname numbering (#1/#2), and update link support. Fixed critical _chkstk stack allocation crash, ESP alignment, and PE32 export table. Requires XenoNativeLoader >=0.6.5.

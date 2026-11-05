@@ -14,4 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify unchanged sources
-        run: python3 imports/0.22_FIX23_TEST/verify_source.py
+        run: |
+          python3 imports/0.22_FIX23_TEST/verify_source.py
+          python3 imports/0.22_FIX23_TEST/verify_moduleinfo_rebuild.py

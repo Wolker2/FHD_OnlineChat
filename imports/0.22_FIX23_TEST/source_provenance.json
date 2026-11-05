@@ -1,0 +1,18 @@
+{
+  "project": "FHD_OnlineChat",
+  "version": "0.22 FIX23 TEST",
+  "original_archive": "FHD_OnlineChat_0.22_FIX23 TEST.zip",
+  "original_archive_sha256": "0415edcec5008a811182838d16c40807b864700b2187dfdf8f3690732ea20d4c",
+  "source_files_byte_identical": 17,
+  "extra_files_byte_identical": 3,
+  "derived_moduleinfo": {
+    "source": "ModuleInfo.utf8.txt",
+    "original": "Mods/OtherMods/FHD_OnlineChat/ModuleInfo.txt",
+    "original_encoding": "UTF-16LE with BOM",
+    "original_size": 2282,
+    "original_sha256": "9c532c4946420f5dcd060cf82ed38885bbc15b1c2e1f97ff7f8c5b568e367de5",
+    "roundtrip": "byte-identical"
+  },
+  "binaries_and_cmd_excluded": true,
+  "live_game_test": false
+}

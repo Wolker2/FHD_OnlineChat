@@ -1,0 +1,5 @@
+BuildID=FHD13af3fa14995ced7c
+Base build: FHD19ec1c0d1d093abc1
+Target 0.22 x86 DLL: exact two input hook branches patched.
+Link action: left/right click on highlighted update or full URL message -> copy full Drive archive URL to clipboard, open in Windows default browser.
+Unchanged: original typing/selection, UUID, history, private messages, other UI.
