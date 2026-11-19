@@ -1,0 +1,148 @@
+{
+  "mod": "FHD_OnlineChat",
+  "source_archive": "FHD_OnlineChat_0.22_FIX23 TEST.zip",
+  "archive_sha256": "56f55cfff505198698a8717d6eec869f6a5a4465ee84acc76b4a39e8e201374e",
+  "archive_file_count": 33,
+  "original_files_in_source": 22,
+  "text_or_code_files": 19,
+  "byte_exact_DAT_to_JSON": 0,
+  "png_files": 0,
+  "data_loss_in_original_archive": false,
+  "dll_source_recovered_from_compiled_binary": false,
+  "game_tested": false,
+  "warnings": [],
+  "files": {
+    "Mods/OtherMods/FHD_OnlineChat/ModuleInfo.txt": {
+      "size": 2282,
+      "sha256": "9c532c4946420f5dcd060cf82ed38885bbc15b1c2e1f97ff7f8c5b568e367de5"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/Native/FHDOnlineChat.XenoPlugin.dll": {
+      "size": 132608,
+      "sha256": "161eea72b024e3ac6ce7ffa19c633d45ea18a8844964567a839099069cf22d4c"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/Native/FHDOnlineChat.XenoPlugin.ini": {
+      "size": 52,
+      "sha256": "dd05e8301b1aea85ee31f96a93f8b04c9864e34befaf4dd3c4e3dbcce1b5d1f5"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/ИНСТРУКЦИЯ_УСТАНОВКА_И_ОТКАТ.txt": {
+      "size": 3874,
+      "sha256": "a0f4d08ce65cf1ca5b9be5a0ebaf3bea68b8de19c1f102184e9a1b0618b657ac"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/plugin.def": {
+      "size": 2859,
+      "sha256": "b24663442d834dcf70805b3657b5cbdce28361c574fb84716269eddd3acea152"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/plugin_zig.def": {
+      "size": 2796,
+      "sha256": "e0c0370d3b2d1dcc51fe3a8527e3d759dc699280edf128bb1446bb3e3b7b7840"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/bridge.c": {
+      "size": 42230,
+      "sha256": "36a9eda14fe0ed247a753d2fe8467fdd716c1c2ed645d1e98f86ba6e70ad6ff3"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/overlay.c": {
+      "size": 55406,
+      "sha256": "7f88f06e8f8185febf08e9c422b326bf448da3e6459c4468e7f7f489233c5d78"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/chat_event.h": {
+      "size": 455,
+      "sha256": "03e4e3a0619b9639bb48dd5b655b5de7a1f6544b0e542cf0a6a1f9e5dfb97f08"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/chat_preferences.h": {
+      "size": 221,
+      "sha256": "a51b4cbbf5af976f694ae1a41f0719e729748a2a3a7f0aea128326cd3c4ce704"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/compat_profiles.h": {
+      "size": 960,
+      "sha256": "b3c205ea4cbbb626615996ffae8d600475bb775078858a2816ab751cf7eca7d0"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/font16.h": {
+      "size": 76679,
+      "sha256": "948456ff635a5d05915d27b8e0ea9fa8f549e835a4817e14b62f796650e1646d"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/header_icons.h": {
+      "size": 1562,
+      "sha256": "70933790e9b96380d4e0d89743be3bbb733245c396240594928a3742ce81ccfd"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/make_font.py": {
+      "size": 1536,
+      "sha256": "3b3c3f284bf545b52ba801b203476ae22f1360111e0b862b5b8f6b2a516dff97"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/server.js": {
+      "size": 30436,
+      "sha256": "99e94c60b81c97cb74f69c0f2341a7a3adc3a1d85066f1fd355f65a1840dea65"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/BUILD_MSVC_X86.cmd": {
+      "size": 508,
+      "sha256": "5df94828dfa9189b32c1b58e0cf252efecc90faa4970015e31289e23b2c54fcb"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/BUILD_ZIG.cmd": {
+      "size": 329,
+      "sha256": "4b2c59b7b55dffd9fe1193cf645af73da94a9407e8d3f7412db265a533b14ece"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/BUILD_NOTES_RU.txt": {
+      "size": 20123,
+      "sha256": "4748411abb19b92b86fe8d4539da1660c0f66b68f4ad18197130dcd5e123195f"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/FONT_LICENSE.txt": {
+      "size": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "BUILD_ID_INFO.txt": {
+      "size": 353,
+      "sha256": "9f1fb98db86650ecaf02efd8c73997e80dce591c0578be90329b85ee012f9f32"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/stamp_build_id.py": {
+      "size": 3298,
+      "sha256": "96f0b8783625141b4d5c0e5a5a0057d01299696a467629bf8d8146aece046179"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/CLIENT_LINK_PATCH.asm": {
+      "size": 2848,
+      "sha256": "4b44dd6a4849f0701eb11c9162f40ec80695b08eed3a39012b67b14a88dc4ddb"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/CLIENT_LINK_PE_PATCH.py": {
+      "size": 4533,
+      "sha256": "e5cd57f119d27d5b08315686aad60646af92323fd05d6d17902b7dfbd38b61d6"
+    },
+    "Mods/OtherMods/FHD_OnlineChat/SOURCE/CLIENT_UPDATE_SECOND_ROW_PATCH.py": {
+      "size": 3737,
+      "sha256": "93308b0aae9a97f81949ef426fc1efd285111d68bc5c533cbbe5e0ab19f08a98"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/FHD_FastNewGame.ini": {
+      "size": 509,
+      "sha256": "c722e0c24796add00a7795009b387772750c8451b1924e641edb869d9dc93d50"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/FHD_FastNewGame.XenoPlugin.dll": {
+      "size": 11597,
+      "sha256": "3225b73c06e2e82cfb7ec21a20951fd3b6a1e3584093a77f4ceef51f01e1d08d"
+    },
+    "XenoNative/Plugins/FHD_FastNewGame/XenoNativePlugin.ini": {
+      "size": 95,
+      "sha256": "5db922be66df9a634bf3fcf321362f53604aed45defdfd5ce5a3fee161a3b600"
+    },
+    "XenoNative/Plugins/XenoStable/XenoNativePlugin.ini": {
+      "size": 78,
+      "sha256": "af86e23f870126d319aa06b00e5078812e172e6974065fc61b1e224220a5e75d"
+    },
+    "XenoNative/Plugins/XenoStable/XenoStable.ini": {
+      "size": 211,
+      "sha256": "adba10e58595f90149c94584d6af76742ad89287c3a31101413aaf3508256024"
+    },
+    "XenoNative/Plugins/XenoStable/XenoStable.Runtime.dll": {
+      "size": 241664,
+      "sha256": "dea9829531bb61b43a0427011810e05a86537110b4a983318f18975d66e8a4cb"
+    },
+    "dsound.dll": {
+      "size": 74240,
+      "sha256": "51edd74422f15802f0a4010d3cb941b88c0f1bb242f1b9507b3b4e1af9ba4898"
+    },
+    "XenoCore.dll": {
+      "size": 320000,
+      "sha256": "d509201d10bac1518768ba4f9ed61fa70454ed4a3d7ac6ffd440ddd22131628d"
+    },
+    "XenoNative.ini": {
+      "size": 173,
+      "sha256": "083e4621dc9663df0de0dfbfab9498c74c41579c1065f437cdb779d6b2a4918e"
+    }
+  }
+}
