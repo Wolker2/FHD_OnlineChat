@@ -23,3 +23,9 @@
 - [Исходники версии 0.18](FHD_OnlineChat_0.18_SOURCE)
 
 Предыдущие материалы сохранены без изменений.
+
+
+## Полная сборка Google Drive — 0.22 FIX23 Full Drive bundle
+
+- [Оригинальный полный ZIP](1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub/install/FHD_OnlineChat_0.22_FIX23 TEST.zip)
+- [Исходники и проверка](1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub)

@@ -1,0 +1,32 @@
+name: Recover FHD_OnlineChat Drive full package original sources
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-fhd-onlinechat-drive-full.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: git clone --depth=1 https://github.com/Xenomorphchyma/SRHD-XenoModKit.git /tmp/SRHD-XenoModKit
+      - name: Verify ZIP and export original source
+        env:
+          PYTHONPATH: /tmp/SRHD-XenoModKit:1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub/tools
+        run: |
+          python '1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub/tools/nexus_source_export.py' --archive '1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub/install/FHD_OnlineChat_0.22_FIX23 TEST.zip' --target '1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub' --sha256 56f55cfff505198698a8717d6eec869f6a5a4465ee84acc76b4a39e8e201374e --mod 'FHD_OnlineChat'
+      - name: Commit verified source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub/SOURCE' '1FHD_OnlineChat_0.22_FIX23_DRIVE_FULL_Nexus-GitHub/VALIDATION_REPORT.json'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Extract FHD_OnlineChat original full Drive package sources'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
